@@ -6,3 +6,12 @@
 #	Expected Result : 'PyPy'
 #	Sample String : ' w'
 #	Expected Result : Empty String
+
+def sample(word):
+    if len(word)<2:
+        print("")
+    else:
+        a=word[0:2]+word[-2:]
+        print(a)
+
+sample("sangam bhattarai")
