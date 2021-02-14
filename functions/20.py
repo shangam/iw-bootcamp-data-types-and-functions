@@ -1,0 +1,1 @@
+#	Write a Python program to find intersection of two given arrays using Lambda.
