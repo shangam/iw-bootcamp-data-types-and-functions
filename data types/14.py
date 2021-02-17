@@ -2,3 +2,8 @@
 #	Sample function and result :
 #	add_tags('i', 'Python') -> '<i>Python</i>'
 #	add_tags('b', 'Python Tutorial') -> '<b>Python Tutorial </b>'
+
+def tags(tag,val):
+    return "<%s>%s<%s>" % (tag,val,tag)
+
+print(tags('i','sangam bhattarai'))
